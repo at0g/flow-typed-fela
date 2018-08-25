@@ -4,6 +4,11 @@ In it's __current state__, this repo shows an example of using flow nicely
 with react-fela.
 
 The issue is that the flow type definitions exist within the relevant file.
+Moving the type definitions outside of the file appears to change them to `any`.
+
+It appears these issues have been reported:
+- https://github.com/facebook/flow/issues/6414
+- https://github.com/facebook/flow/issues/6415
 
 ## Contents
 
