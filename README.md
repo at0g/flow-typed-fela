@@ -45,3 +45,8 @@ Additionally, I have tried the following, none of which have worked.
  then importing the file.
 - as above, along with explictly exporting the types from this file and
  explicitly importing the types into FelaConnectComponent.js
+
+
+## Running it locally
+
+`yarn install && yarn flow` - there will be 2 flow errors of required props not supplied to the component
