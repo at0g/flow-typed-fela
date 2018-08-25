@@ -30,7 +30,7 @@ Lines 6-100 of this file contain the flow definitions.
 
 ### flow-typed libdef
 
-[flow-typed/react-fela.js]((./flow-typed/react-fela.js)
+[flow-typed/react-fela.js](./flow-typed/react-fela.js)
 
 Module definitions for react-fela, currently commented out.
 The following will remove the flow error in App.js
