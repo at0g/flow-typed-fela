@@ -14,14 +14,14 @@ It appears these issues have been reported:
 
 ### App
 
-[src/App.js](blob/master/src/App.js)
+[src/App.js](./blob/master/src/App.js)
 
 Imports the FelaConnectComponent and causes a flow error, as `children`
 and `title` are omitted.
 
 ### FelaConnectComponent
 
-[src/components/FelaConnectComponent.js](blob/master/src/components/FelaConnectComponent.js)
+[src/components/FelaConnectComponent.js](./blob/master/src/components/FelaConnectComponent.js)
 
 A component that contains the correct type data, with the additional
 props from fela merged with it.
@@ -30,7 +30,7 @@ Lines 6-100 of this file contain the flow definitions.
 
 ### flow-typed libdef
 
-[flow-typed/react-fela.js]((blob/master/flow-typed/react-fela.js)
+[flow-typed/react-fela.js]((./blob/master/flow-typed/react-fela.js)
 
 Module definitions for react-fela, currently commented out.
 The following will remove the flow error in App.js
